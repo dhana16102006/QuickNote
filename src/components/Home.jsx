@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import NoteCard from "./notecard";
+import NoteCard from "./NoteCard";
 
 export default function Home({ goAdd, onEdit }) {
   const [notes, setNotes] = useState([]);
