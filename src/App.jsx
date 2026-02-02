@@ -8,6 +8,7 @@ export default function App() {
 
   return (
     <>
+    
       {page === "home" && (
         <Home
           goAdd={() => setPage("add")}
