@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Home from "./components/Home";
-import AddNote from "./components/AddNote";
+import Home from "./components/home";
+import AddNote from "./components/addnote";
 
 export default function App() {
   const [page, setPage] = useState("home");
